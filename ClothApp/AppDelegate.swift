@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Parse
 import CoreData
 
 @UIApplicationMain
@@ -17,6 +18,29 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        
+        let path = NSBundle.mainBundle().pathForResource("keys", ofType: "plist")
+        let dict = NSDictionary(contentsOfFile: path!)
+        let appSecret = dict!.objectForKey("parseAppSecret") as! String
+        let clientKey = dict!.objectForKey("parseClientKey") as! String
+        
+        //enable parse initialization
+        Parse.enableLocalDatastore()
+        
+        // ****************************************************************************
+        // Uncomment and fill in with your Parse credentials:
+        
+        Parse.setApplicationId(appSecret, clientKey: clientKey)
+        //
+        // If you are using Facebook, uncomment and add your FacebookAppID to your bundle's plist as
+        // described here: https://developers.facebook.com/docs/getting-started/facebook-sdk-for-ios/
+        // Uncomment the line inside ParseStartProject-Bridging-Header and the following line here:
+        // PFFacebookUtils.initializeFacebook()
+        // ****************************************************************************
+        
+        PFUser.enableAutomaticUser()
+        
         return true
     }
 

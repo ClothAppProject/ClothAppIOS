@@ -8,12 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		3FCB10DB1D1537E6005B02BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCB10DA1D1537E6005B02BF /* AppDelegate.swift */; };
-		3FCB10DD1D1537E6005B02BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCB10DC1D1537E6005B02BF /* ViewController.swift */; };
+		3FCB10DD1D1537E6005B02BF /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCB10DC1D1537E6005B02BF /* SplashViewController.swift */; };
 		3FCB10E01D1537E6005B02BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCB10DE1D1537E6005B02BF /* Main.storyboard */; };
 		3FCB10E31D1537E6005B02BF /* ClothApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3FCB10E11D1537E6005B02BF /* ClothApp.xcdatamodeld */; };
-		3FCB10E81D1537E6005B02BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCB10E61D1537E6005B02BF /* LaunchScreen.storyboard */; };
 		3FCB10F31D1537E6005B02BF /* ClothAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCB10F21D1537E6005B02BF /* ClothAppTests.swift */; };
 		3FCB10FE1D1537E6005B02BF /* ClothAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCB10FD1D1537E6005B02BF /* ClothAppUITests.swift */; };
+		3FCB11101D15489A005B02BF /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FCB110F1D15489A005B02BF /* Media.xcassets */; };
+		3FCB11141D155D4B005B02BF /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FCB11121D155D4B005B02BF /* Bolts.framework */; };
+		3FCB11151D155D4B005B02BF /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FCB11131D155D4B005B02BF /* Parse.framework */; };
+		3FCB11171D155D82005B02BF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FCB11161D155D82005B02BF /* AudioToolbox.framework */; };
+		3FCB11191D155D8A005B02BF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FCB11181D155D8A005B02BF /* CFNetwork.framework */; };
+		3FCB111B1D155D93005B02BF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FCB111A1D155D92005B02BF /* CoreGraphics.framework */; };
+		3FCB111D1D155D9B005B02BF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FCB111C1D155D9B005B02BF /* CoreLocation.framework */; };
+		3FCB111F1D155DA5005B02BF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FCB111E1D155DA5005B02BF /* QuartzCore.framework */; };
+		3FCB11211D155DAE005B02BF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FCB11201D155DAE005B02BF /* Security.framework */; };
+		3FCB11231D155DB3005B02BF /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FCB11221D155DB3005B02BF /* StoreKit.framework */; };
+		3FCB11251D155DBC005B02BF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FCB11241D155DBC005B02BF /* SystemConfiguration.framework */; };
+		3FCB112B1D155F3A005B02BF /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FCB112A1D155F3A005B02BF /* libsqlite3.dylib */; };
+		3FCB112D1D155F6E005B02BF /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FCB112C1D155F6E005B02BF /* libz.1.dylib */; };
+		3FCB11321D1566C9005B02BF /* keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FCB11311D1566C9005B02BF /* keys.plist */; };
+		3FCB11351D157DA3005B02BF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCB11341D157DA3005B02BF /* LoginViewController.swift */; };
+		3FCB113D1D15AFCF005B02BF /* strings.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FCB113C1D15AFCF005B02BF /* strings.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +51,9 @@
 /* Begin PBXFileReference section */
 		3FCB10D71D1537E6005B02BF /* ClothApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClothApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FCB10DA1D1537E6005B02BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3FCB10DC1D1537E6005B02BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FCB10DC1D1537E6005B02BF /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		3FCB10DF1D1537E6005B02BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FCB10E21D1537E6005B02BF /* ClothApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ClothApp.xcdatamodel; sourceTree = "<group>"; };
-		3FCB10E71D1537E6005B02BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FCB10E91D1537E6005B02BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FCB10EE1D1537E6005B02BF /* ClothAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClothAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FCB10F21D1537E6005B02BF /* ClothAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothAppTests.swift; sourceTree = "<group>"; };
@@ -47,6 +61,22 @@
 		3FCB10F91D1537E6005B02BF /* ClothAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClothAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FCB10FD1D1537E6005B02BF /* ClothAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothAppUITests.swift; sourceTree = "<group>"; };
 		3FCB10FF1D1537E6005B02BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FCB110F1D15489A005B02BF /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = ../Media.xcassets; sourceTree = "<group>"; };
+		3FCB11121D155D4B005B02BF /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = SOURCE_ROOT; };
+		3FCB11131D155D4B005B02BF /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = SOURCE_ROOT; };
+		3FCB11161D155D82005B02BF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3FCB11181D155D8A005B02BF /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		3FCB111A1D155D92005B02BF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3FCB111C1D155D9B005B02BF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3FCB111E1D155DA5005B02BF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3FCB11201D155DAE005B02BF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		3FCB11221D155DB3005B02BF /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		3FCB11241D155DBC005B02BF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3FCB112A1D155F3A005B02BF /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = /usr/lib/libsqlite3.dylib; sourceTree = "<absolute>"; };
+		3FCB112C1D155F6E005B02BF /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = /usr/lib/libz.1.dylib; sourceTree = "<absolute>"; };
+		3FCB11311D1566C9005B02BF /* keys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = keys.plist; sourceTree = "<group>"; };
+		3FCB11341D157DA3005B02BF /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3FCB113C1D15AFCF005B02BF /* strings.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = strings.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +84,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FCB112D1D155F6E005B02BF /* libz.1.dylib in Frameworks */,
+				3FCB112B1D155F3A005B02BF /* libsqlite3.dylib in Frameworks */,
+				3FCB11251D155DBC005B02BF /* SystemConfiguration.framework in Frameworks */,
+				3FCB11231D155DB3005B02BF /* StoreKit.framework in Frameworks */,
+				3FCB11211D155DAE005B02BF /* Security.framework in Frameworks */,
+				3FCB111F1D155DA5005B02BF /* QuartzCore.framework in Frameworks */,
+				3FCB111D1D155D9B005B02BF /* CoreLocation.framework in Frameworks */,
+				3FCB111B1D155D93005B02BF /* CoreGraphics.framework in Frameworks */,
+				3FCB11191D155D8A005B02BF /* CFNetwork.framework in Frameworks */,
+				3FCB11171D155D82005B02BF /* AudioToolbox.framework in Frameworks */,
+				3FCB11151D155D4B005B02BF /* Parse.framework in Frameworks */,
+				3FCB11141D155D4B005B02BF /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +119,7 @@
 		3FCB10CE1D1537E6005B02BF = {
 			isa = PBXGroup;
 			children = (
+				3FCB112E1D155FA0005B02BF /* frameworks */,
 				3FCB10D91D1537E6005B02BF /* ClothApp */,
 				3FCB10F11D1537E6005B02BF /* ClothAppTests */,
 				3FCB10FC1D1537E6005B02BF /* ClothAppUITests */,
@@ -98,11 +141,14 @@
 			isa = PBXGroup;
 			children = (
 				3FCB10DA1D1537E6005B02BF /* AppDelegate.swift */,
-				3FCB10DC1D1537E6005B02BF /* ViewController.swift */,
+				3FCB11311D1566C9005B02BF /* keys.plist */,
 				3FCB10DE1D1537E6005B02BF /* Main.storyboard */,
-				3FCB10E61D1537E6005B02BF /* LaunchScreen.storyboard */,
+				3FCB11331D157D77005B02BF /* Login_Signup */,
+				3FCB11111D15548D005B02BF /* launcher */,
+				3FCB110F1D15489A005B02BF /* Media.xcassets */,
 				3FCB10E91D1537E6005B02BF /* Info.plist */,
 				3FCB10E11D1537E6005B02BF /* ClothApp.xcdatamodeld */,
+				3FCB113C1D15AFCF005B02BF /* strings.strings */,
 			);
 			path = ClothApp;
 			sourceTree = "<group>";
@@ -123,6 +169,42 @@
 				3FCB10FF1D1537E6005B02BF /* Info.plist */,
 			);
 			path = ClothAppUITests;
+			sourceTree = "<group>";
+		};
+		3FCB11111D15548D005B02BF /* launcher */ = {
+			isa = PBXGroup;
+			children = (
+				3FCB10DC1D1537E6005B02BF /* SplashViewController.swift */,
+			);
+			name = launcher;
+			sourceTree = "<group>";
+		};
+		3FCB112E1D155FA0005B02BF /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FCB11131D155D4B005B02BF /* Parse.framework */,
+				3FCB11121D155D4B005B02BF /* Bolts.framework */,
+				3FCB112C1D155F6E005B02BF /* libz.1.dylib */,
+				3FCB112A1D155F3A005B02BF /* libsqlite3.dylib */,
+				3FCB11241D155DBC005B02BF /* SystemConfiguration.framework */,
+				3FCB11221D155DB3005B02BF /* StoreKit.framework */,
+				3FCB11201D155DAE005B02BF /* Security.framework */,
+				3FCB111E1D155DA5005B02BF /* QuartzCore.framework */,
+				3FCB111C1D155D9B005B02BF /* CoreLocation.framework */,
+				3FCB111A1D155D92005B02BF /* CoreGraphics.framework */,
+				3FCB11181D155D8A005B02BF /* CFNetwork.framework */,
+				3FCB11161D155D82005B02BF /* AudioToolbox.framework */,
+			);
+			name = frameworks;
+			path = ClothApp;
+			sourceTree = "<group>";
+		};
+		3FCB11331D157D77005B02BF /* Login_Signup */ = {
+			isa = PBXGroup;
+			children = (
+				3FCB11341D157DA3005B02BF /* LoginViewController.swift */,
+			);
+			name = Login_Signup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +275,7 @@
 				TargetAttributes = {
 					3FCB10D61D1537E6005B02BF = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 42H62TN2X6;
 					};
 					3FCB10ED1D1537E6005B02BF = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -229,8 +312,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FCB10E81D1537E6005B02BF /* LaunchScreen.storyboard in Resources */,
+				3FCB11101D15489A005B02BF /* Media.xcassets in Resources */,
+				3FCB113D1D15AFCF005B02BF /* strings.strings in Resources */,
 				3FCB10E01D1537E6005B02BF /* Main.storyboard in Resources */,
+				3FCB11321D1566C9005B02BF /* keys.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,8 +340,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FCB10DD1D1537E6005B02BF /* ViewController.swift in Sources */,
+				3FCB10DD1D1537E6005B02BF /* SplashViewController.swift in Sources */,
 				3FCB10E31D1537E6005B02BF /* ClothApp.xcdatamodeld in Sources */,
+				3FCB11351D157DA3005B02BF /* LoginViewController.swift in Sources */,
 				3FCB10DB1D1537E6005B02BF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,14 +385,6 @@
 				3FCB10DF1D1537E6005B02BF /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3FCB10E61D1537E6005B02BF /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3FCB10E71D1537E6005B02BF /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -400,22 +478,34 @@
 		3FCB11031D1537E6005B02BF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ClothApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Kernel-Team.ClothApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		3FCB11041D1537E6005B02BF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ClothApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Kernel-Team.ClothApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

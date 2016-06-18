@@ -1,0 +1,83 @@
+/* 
+  strings.strings
+  ClothApp
+*/
+
+
+"default_settings" = "1111111111";
+"connection_error" = "Errore di connessione";
+"permission_not_granted" = "Errore: impossibile ottenere permessi!";
+
+"notification" = "Notifiche";
+"like_notification" = "Notifiche Like";
+"follower_notification" = "Notifiche Follower";
+"new_photo_notification" = "Notifiche nuove foto caricate";
+"facebook" = "Facebook";
+"attention" = "Attenzione!";
+"ask_disconnect_facebook" = "Se ti disconnetti da facebook non potrai più eseguire il Login con Facebook!";
+"facebook_connected" = "Connesso con Facebook!";
+"facebook_disconnected" = "Disconnesso da Facebook!";
+
+"app_name" = "ClothApp";
+"action_settings" = "Settings";
+
+"form_intro" = "Esegui il Login o Registrati";
+
+"form_register_username" = "Inserisci un Username:";
+"form_register" = "Inserisci i tuoi dati:";
+"form_register_password" = "Inserisci e conferma una password:";
+"logo_description" = "Application logo";
+"main_username" = "Username";
+"main_password" = "Password";
+"main_login" = "Login";
+"signup" = "Registrati";
+"main_login_facebook" = "Login with Facebook";
+"main_login_twitter" = "Login with Twitter";
+"main_forgot_password" = "Passowrd dimenticata?";
+"main_signup" = "Sei nuovo? Registrati!";
+"email" = "Email";
+"invalid_email" = "Email non valida";
+"empty_field" = "I campi non possono essere vuoti";
+"check_data" = "Controllo dati";
+"data_edited" = "Dati modificati";
+"name" = "Nome";
+"username" = "Username";
+"name_shop" = "Nome del Negozio";
+"lastname" = "Cognome";
+"sex" = "Sesso";
+"man" = "Uomo";
+"woman" = "Donna";
+"birthday" = "Data di Nascita";
+"password_confirm" = "Conferma Password";
+"reset_password" = "Inserisci la email del tuo account per richiedere una nuova password";
+"send" = "Invia";
+"indirizzo" = "Indirizzo";
+"info_negozio" = "Inserisci informazioni sul negozio";
+"info_webSite" = "Sito Web";
+
+
+"homepage_button" = "HomePage";
+"logout_button" = "Logout";
+"profile_button" = "Profilo";
+"barra_separatrice" = "____________________________________________";
+"back_button_label" = "Indietro";
+"label_form_name" = "Nome Inserito:";
+"label_form_lastname" = "Cognome Inserito:";
+"finale" = "You Won!";
+"loading" = "Caricamento…";
+"load" = "Loading";
+
+
+"he_likes" = "Piace a";
+"and_others" = "e altri";
+"likes" = "like";
+"no_following" = "L\' utente non segue nessuno";
+"no_followers" = "L\' utente non ha nessun followers";
+"no_photos_uploaded" = "L\' utente non ha caricato nessuna foto";
+"edit_profile" = "Modifica Profilo";
+"save" = "Salva";
+"follow" = "Follow";
+"unfollow" = "Unfollow";
+"ask_back_from_upload" = "Vuoi annullare la procedura di upload?";
+"ok" = "OK";
+"cancel" = "Cancel";
