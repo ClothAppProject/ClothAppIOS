@@ -11,7 +11,6 @@
 		3FCB10DD1D1537E6005B02BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCB10DC1D1537E6005B02BF /* ViewController.swift */; };
 		3FCB10E01D1537E6005B02BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCB10DE1D1537E6005B02BF /* Main.storyboard */; };
 		3FCB10E31D1537E6005B02BF /* ClothApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3FCB10E11D1537E6005B02BF /* ClothApp.xcdatamodeld */; };
-		3FCB10E51D1537E6005B02BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FCB10E41D1537E6005B02BF /* Assets.xcassets */; };
 		3FCB10E81D1537E6005B02BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCB10E61D1537E6005B02BF /* LaunchScreen.storyboard */; };
 		3FCB10F31D1537E6005B02BF /* ClothAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCB10F21D1537E6005B02BF /* ClothAppTests.swift */; };
 		3FCB10FE1D1537E6005B02BF /* ClothAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCB10FD1D1537E6005B02BF /* ClothAppUITests.swift */; };
@@ -40,7 +39,6 @@
 		3FCB10DC1D1537E6005B02BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3FCB10DF1D1537E6005B02BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FCB10E21D1537E6005B02BF /* ClothApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ClothApp.xcdatamodel; sourceTree = "<group>"; };
-		3FCB10E41D1537E6005B02BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FCB10E71D1537E6005B02BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FCB10E91D1537E6005B02BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FCB10EE1D1537E6005B02BF /* ClothAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClothAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,7 +100,6 @@
 				3FCB10DA1D1537E6005B02BF /* AppDelegate.swift */,
 				3FCB10DC1D1537E6005B02BF /* ViewController.swift */,
 				3FCB10DE1D1537E6005B02BF /* Main.storyboard */,
-				3FCB10E41D1537E6005B02BF /* Assets.xcassets */,
 				3FCB10E61D1537E6005B02BF /* LaunchScreen.storyboard */,
 				3FCB10E91D1537E6005B02BF /* Info.plist */,
 				3FCB10E11D1537E6005B02BF /* ClothApp.xcdatamodeld */,
@@ -233,7 +230,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FCB10E81D1537E6005B02BF /* LaunchScreen.storyboard in Resources */,
-				3FCB10E51D1537E6005B02BF /* Assets.xcassets in Resources */,
 				3FCB10E01D1537E6005B02BF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
