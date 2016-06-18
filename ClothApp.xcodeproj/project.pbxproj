@@ -29,6 +29,8 @@
 		3FCB11321D1566C9005B02BF /* keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FCB11311D1566C9005B02BF /* keys.plist */; };
 		3FCB11351D157DA3005B02BF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCB11341D157DA3005B02BF /* LoginViewController.swift */; };
 		3FCB113D1D15AFCF005B02BF /* strings.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FCB113C1D15AFCF005B02BF /* strings.strings */; };
+		3FCB113F1D15B8B5005B02BF /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCB113E1D15B8B5005B02BF /* ErrorHandler.swift */; };
+		3FCB11411D15D468005B02BF /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCB11401D15D468005B02BF /* SignupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +79,8 @@
 		3FCB11311D1566C9005B02BF /* keys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = keys.plist; sourceTree = "<group>"; };
 		3FCB11341D157DA3005B02BF /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3FCB113C1D15AFCF005B02BF /* strings.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = strings.strings; sourceTree = "<group>"; };
+		3FCB113E1D15B8B5005B02BF /* ErrorHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
+		3FCB11401D15D468005B02BF /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +153,7 @@
 				3FCB10E91D1537E6005B02BF /* Info.plist */,
 				3FCB10E11D1537E6005B02BF /* ClothApp.xcdatamodeld */,
 				3FCB113C1D15AFCF005B02BF /* strings.strings */,
+				3FCB113E1D15B8B5005B02BF /* ErrorHandler.swift */,
 			);
 			path = ClothApp;
 			sourceTree = "<group>";
@@ -203,6 +208,7 @@
 			isa = PBXGroup;
 			children = (
 				3FCB11341D157DA3005B02BF /* LoginViewController.swift */,
+				3FCB11401D15D468005B02BF /* SignupViewController.swift */,
 			);
 			name = Login_Signup;
 			sourceTree = "<group>";
@@ -340,8 +346,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FCB11411D15D468005B02BF /* SignupViewController.swift in Sources */,
 				3FCB10DD1D1537E6005B02BF /* SplashViewController.swift in Sources */,
 				3FCB10E31D1537E6005B02BF /* ClothApp.xcdatamodeld in Sources */,
+				3FCB113F1D15B8B5005B02BF /* ErrorHandler.swift in Sources */,
 				3FCB11351D157DA3005B02BF /* LoginViewController.swift in Sources */,
 				3FCB10DB1D1537E6005B02BF /* AppDelegate.swift in Sources */,
 			);
