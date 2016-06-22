@@ -14,8 +14,8 @@ class SplashViewController: UIViewController {
     override func viewDidAppear(animated: Bool) {
         
         let currentUser = PFUser.currentUser()
-        
-        if (!currentUser!.authenticated) {
+        PFUser.logOut()
+        if (currentUser!.authenticated) {
             //load images
             print("loggato")
         }else{

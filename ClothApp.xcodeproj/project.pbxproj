@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F6B5F321D16CA9F001624FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6B5F311D16CA9F001624FF /* Main.storyboard */; };
 		3FCB10DB1D1537E6005B02BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCB10DA1D1537E6005B02BF /* AppDelegate.swift */; };
 		3FCB10DD1D1537E6005B02BF /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCB10DC1D1537E6005B02BF /* SplashViewController.swift */; };
-		3FCB10E01D1537E6005B02BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCB10DE1D1537E6005B02BF /* Main.storyboard */; };
 		3FCB10E31D1537E6005B02BF /* ClothApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3FCB10E11D1537E6005B02BF /* ClothApp.xcdatamodeld */; };
 		3FCB10F31D1537E6005B02BF /* ClothAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCB10F21D1537E6005B02BF /* ClothAppTests.swift */; };
 		3FCB10FE1D1537E6005B02BF /* ClothAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCB10FD1D1537E6005B02BF /* ClothAppUITests.swift */; };
@@ -30,7 +30,7 @@
 		3FCB11351D157DA3005B02BF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCB11341D157DA3005B02BF /* LoginViewController.swift */; };
 		3FCB113D1D15AFCF005B02BF /* strings.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FCB113C1D15AFCF005B02BF /* strings.strings */; };
 		3FCB113F1D15B8B5005B02BF /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCB113E1D15B8B5005B02BF /* ErrorHandler.swift */; };
-		3FCB11411D15D468005B02BF /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCB11401D15D468005B02BF /* SignupViewController.swift */; };
+		3FCB11411D15D468005B02BF /* SignupPersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCB11401D15D468005B02BF /* SignupPersonViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,10 +51,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F6B5F311D16CA9F001624FF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		3FCB10D71D1537E6005B02BF /* ClothApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClothApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FCB10DA1D1537E6005B02BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FCB10DC1D1537E6005B02BF /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
-		3FCB10DF1D1537E6005B02BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FCB10E21D1537E6005B02BF /* ClothApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ClothApp.xcdatamodel; sourceTree = "<group>"; };
 		3FCB10E91D1537E6005B02BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FCB10EE1D1537E6005B02BF /* ClothAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClothAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,7 +80,7 @@
 		3FCB11341D157DA3005B02BF /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3FCB113C1D15AFCF005B02BF /* strings.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = strings.strings; sourceTree = "<group>"; };
 		3FCB113E1D15B8B5005B02BF /* ErrorHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
-		3FCB11401D15D468005B02BF /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		3FCB11401D15D468005B02BF /* SignupPersonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupPersonViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,15 +145,15 @@
 			isa = PBXGroup;
 			children = (
 				3FCB10DA1D1537E6005B02BF /* AppDelegate.swift */,
-				3FCB11311D1566C9005B02BF /* keys.plist */,
-				3FCB10DE1D1537E6005B02BF /* Main.storyboard */,
+				3F6B5F311D16CA9F001624FF /* Main.storyboard */,
 				3FCB11331D157D77005B02BF /* Login_Signup */,
 				3FCB11111D15548D005B02BF /* launcher */,
 				3FCB110F1D15489A005B02BF /* Media.xcassets */,
+				3FCB113E1D15B8B5005B02BF /* ErrorHandler.swift */,
+				3FCB11311D1566C9005B02BF /* keys.plist */,
 				3FCB10E91D1537E6005B02BF /* Info.plist */,
 				3FCB10E11D1537E6005B02BF /* ClothApp.xcdatamodeld */,
 				3FCB113C1D15AFCF005B02BF /* strings.strings */,
-				3FCB113E1D15B8B5005B02BF /* ErrorHandler.swift */,
 			);
 			path = ClothApp;
 			sourceTree = "<group>";
@@ -208,7 +208,7 @@
 			isa = PBXGroup;
 			children = (
 				3FCB11341D157DA3005B02BF /* LoginViewController.swift */,
-				3FCB11401D15D468005B02BF /* SignupViewController.swift */,
+				3FCB11401D15D468005B02BF /* SignupPersonViewController.swift */,
 			);
 			name = Login_Signup;
 			sourceTree = "<group>";
@@ -320,8 +320,8 @@
 			files = (
 				3FCB11101D15489A005B02BF /* Media.xcassets in Resources */,
 				3FCB113D1D15AFCF005B02BF /* strings.strings in Resources */,
-				3FCB10E01D1537E6005B02BF /* Main.storyboard in Resources */,
 				3FCB11321D1566C9005B02BF /* keys.plist in Resources */,
+				3F6B5F321D16CA9F001624FF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,7 +346,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FCB11411D15D468005B02BF /* SignupViewController.swift in Sources */,
+				3FCB11411D15D468005B02BF /* SignupPersonViewController.swift in Sources */,
 				3FCB10DD1D1537E6005B02BF /* SplashViewController.swift in Sources */,
 				3FCB10E31D1537E6005B02BF /* ClothApp.xcdatamodeld in Sources */,
 				3FCB113F1D15B8B5005B02BF /* ErrorHandler.swift in Sources */,
@@ -385,17 +385,6 @@
 			targetProxy = 3FCB10FA1D1537E6005B02BF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		3FCB10DE1D1537E6005B02BF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3FCB10DF1D1537E6005B02BF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3FCB11001D1537E6005B02BF /* Debug */ = {
@@ -582,6 +571,7 @@
 				3FCB11041D1537E6005B02BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FCB11051D1537E6005B02BF /* Build configuration list for PBXNativeTarget "ClothAppTests" */ = {
 			isa = XCConfigurationList;
@@ -590,6 +580,7 @@
 				3FCB11071D1537E6005B02BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FCB11081D1537E6005B02BF /* Build configuration list for PBXNativeTarget "ClothAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -598,6 +589,7 @@
 				3FCB110A1D1537E6005B02BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

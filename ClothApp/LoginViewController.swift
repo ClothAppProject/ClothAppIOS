@@ -13,17 +13,33 @@ class LoginViewController: UIViewController {
     
     @IBOutlet weak var username: UITextField!
     @IBOutlet weak var password: UITextField!
-    @IBOutlet weak var signupButton: UITextView!
-    @IBOutlet weak var forgotButton: UITextView!
+    
+    @IBAction func forgotButton(sender: UIButton) {
+    }
+    
+    @IBAction func signupButton(sender: UIButton) {
+        //create alert
+        let alert = UIAlertController(title: "Che tipo di utente sei?", message: "", preferredStyle: UIAlertControllerStyle.Alert)
+        //add buttons
+        alert.addAction(UIAlertAction(title: "Persona", style:UIAlertActionStyle.Default, handler: goToSignupPerson))
+        alert.addAction(UIAlertAction(title: "Negozio", style: UIAlertActionStyle.Default, handler: nil))
+        
+        self.presentViewController(alert, animated: true, completion: nil)
+    }
+    
+    //handler for Person signup
+    func goToSignupPerson(alert: UIAlertAction!)   {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewControllerWithIdentifier("SignupPersonViewController") as UIViewController
+        presentViewController(vc, animated: true, completion: nil)
+    }
     
     //pressed login button
     @IBAction func loginPressed(sender: UIButton) {
-        var message:String = ""
         if (!username.hasText() || !password.hasText())  {
-            message = "I campi non possono essere vuoti"
             
             //initialize alert dialog
-            let alert = UIAlertController(title: "Attenzione!", message: message, preferredStyle: UIAlertControllerStyle.Alert)
+            let alert = UIAlertController(title: "Attenzione!", message: "I campi non possono essere vuoti", preferredStyle: UIAlertControllerStyle.Alert)
             alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
             self.presentViewController(alert, animated: true, completion: nil)
         }else{
@@ -34,7 +50,11 @@ class LoginViewController: UIViewController {
             username_check!.getFirstObjectInBackgroundWithBlock {
                 (object: PFObject?, error: NSError?) -> Void in
                 if error != nil || object == nil {
-                    parseErrorCheck(error!.code, uiViewController: self)
+                    if (error?.code == 101) {
+                        parseErrorCheck(0, uiViewController: self)
+                    }else{
+                        parseErrorCheck(error!.code, uiViewController: self)
+                    }
                 } else {
                     //obtained correct username
                     let usr:PFUser = (object as? PFUser)!
@@ -58,14 +78,17 @@ class LoginViewController: UIViewController {
     
     }
     
-    override func viewDidAppear(animated: Bool) {
-        
-        if (signupButton.exclusiveTouch)    {
-            let storyboard = UIStoryboard(name: "Main", bundle: nil)
-            let vc = storyboard.instantiateViewControllerWithIdentifier("SignupViewController") as UIViewController
-            presentViewController(vc, animated: true, completion: nil)
-        }
+    override func viewDidLoad() {
+        super.viewDidLoad()
     }
+    
+    /*override func viewDidAppear(animated: Bool) {
+        let mySelector:Selector = Selector("goToSignup")
+        
+        let tapOutTextField:UITapGestureRecognizer = UITapGestureRecognizer(target: self,action: mySelector)
+        tapOutTextField.numberOfTapsRequired = 1
+        signupButton.addGestureRecognizer(tapOutTextField)
+    }*/
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
